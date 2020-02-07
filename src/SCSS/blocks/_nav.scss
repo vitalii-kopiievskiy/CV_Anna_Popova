@@ -1,4 +1,6 @@
 .nav {
+  position: sticky;
+  font-family: 'Lora', serif;
   &__logo {
     margin-top: 39px;
   }
@@ -31,4 +33,8 @@
   &:first-of-type {
     margin-left: -7px;
   }
+}
+
+.nav__item.active .menu-item {
+  color: #26c6da;
 }

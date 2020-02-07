@@ -1,0 +1,48 @@
+mixin gal
+    .gal
+        .container
+            .row
+                .col-2
+                    .gal__desc
+                        p.gal-desc Home / Gallery
+            .row
+                .col-6
+                    .gal__content
+                        .gal__title
+                            h2.gal-title Beautiful Maternity
+                        .gal__subtitle
+                            p.gal-subtitle Maternity photography sessions are such a beautiful way to
+                            | capture the parent’s excitement over meeting their baby soon.
+            .gal__images
+                .row
+                    .col-6
+                        .gal__image
+                            img.gal-image(src="../images/gal/alice.png", alt="alice")
+                            .gal__shadow
+                                p.gal__text Alice
+
+                    .col-6
+                        .gal__image.ml-3
+                            img.gal-image(src="../images/gal/marry.png", alt="marry")
+                            .gal__shadow
+                                p.gal__text Marry & Tom
+                    .col-12
+                        .gal__image
+                            img.gal-image(src="../images/gal/ann.png", alt="ann")
+                            .gal__shadow
+                                p.gal__text Ann & David
+                    .col-6
+                        .gal__image
+                            img.gal-image(src="../images/gal/sarra.png", alt="sarra")
+                            .gal__shadow
+                                p.gal__text Sarra
+                    .col-6
+                        .gal__image.ml-3
+                            img.gal-image(src="../images/gal/kelly.png", alt="kelly")
+                            .gal__shadow
+                                p.gal__text Kelly & Mark
+                .row
+                    .col-2.mx-auto
+                        .gal__link
+                            a.mx-auto.gal-link(href="#") See more
+    hr.gal__line

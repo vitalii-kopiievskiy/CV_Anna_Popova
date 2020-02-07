@@ -26,6 +26,11 @@
     font-size: 20px;
     line-height: 30px;
     text-decoration: none;
+    // transition: all 0.4s ease-in;
+    // &:hover .link__arrow {
+    //   margin-left: 40px;
+    //   transition: all 0.4s ease-out;
+    // }
   }
   &__images {
     &--first {

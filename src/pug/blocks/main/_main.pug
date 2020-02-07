@@ -2,7 +2,7 @@ mixin main
     main.main
         include _nav.pug
         .container
-            .main__content
+            .main__content.tabs__content.active
                 .row
                     .col-10
                         .main__title
@@ -68,6 +68,7 @@ mixin main
                             .image__link.ml-3
                                 a.main-link(href="#about Me") Read more
                                 img.image__arrow(src="../images/main/arrow.svg", alt="arrow")
+
         include _footer.pug
                         
                                 
