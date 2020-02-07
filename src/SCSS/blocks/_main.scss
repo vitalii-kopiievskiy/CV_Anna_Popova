@@ -1,0 +1,129 @@
+.main {
+  background-color: white;
+  color: #212121;
+  &__content {
+    margin-top: 113px;
+  }
+  &__title {
+    font-size: 64px;
+    line-height: 76px;
+  }
+  &__subtitle {
+    margin-top: 26px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #909090;
+    margin-right: 33px;
+  }
+  &__link {
+    margin-top: 43px;
+  }
+  &-link {
+    color: #26c6da;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  &__images {
+    &--first {
+      margin-top: 28px;
+    }
+    &--second {
+      margin-top: 87px;
+    }
+  }
+  &__block {
+    margin-top: 60px;
+  }
+}
+
+.link__arrow {
+  margin-left: 22px;
+}
+
+.image {
+  &__content {
+    &--first {
+      margin-top: 253px;
+    }
+    &--second {
+      margin-top: 115px;
+    }
+  }
+  &-title {
+    font-size: 42px;
+    line-height: 76px;
+  }
+  &-subtitle {
+    margin-top: 23px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 36px;
+    color: #909090;
+  }
+  &-text {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 33px;
+    color: #909090;
+  }
+  &__link {
+    margin-top: 52px;
+  }
+  &__arrow {
+    margin-left: 11px;
+  }
+}
+
+.block {
+  &__link {
+    display: block;
+    position: relative;
+    &:hover .block__text {
+      opacity: 1;
+      transition: all 0.3s linear;
+    }
+  }
+  &__text {
+    opacity: 0;
+    width: 100%;
+    top: 46%;
+    position: absolute;
+    text-align: center;
+    font-size: 42px;
+    line-height: 76px;
+    color: white;
+    transition: all 0.3s linear;
+  }
+}
+
+.h-750:hover:after,
+.w-1380:hover:after,
+.h-580:hover:after {
+  left: 0;
+  top: 0;
+  display: block;
+  position: absolute;
+  content: '';
+  background: linear-gradient(
+    0deg,
+    rgba(128, 238, 255, 0.5),
+    rgba(128, 238, 255, 0.5)
+  );
+}
+.h-750:hover:after {
+  width: 660px;
+  height: 750px;
+}
+.w-1380:hover:after {
+  width: 1380px;
+  height: 750px;
+}
+
+.h-580:hover:after {
+  width: 660px;
+  height: 580px;
+}
