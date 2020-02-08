@@ -1,6 +1,27 @@
 mixin tst
     .tst
         .container
+            nav.main__nav.nav
+                .row.d-flex.align-items-center
+                    .col-3
+                        .nav__logo
+                            a(href="#home")
+                                img(src="../images/nav/logo.svg", alt="letter_logo")
+                    .col-5.offset-4
+                        ul.nav__menu.menu.d-flex.justify-content-between
+                            li.nav__item
+                                a.menu-item(href="index.html") Home
+                            li.nav__item
+                                a.menu-item(href="gallery.html") Gallery
+                            li.nav__item
+                                a.menu-item(href="about.html") About me
+                            li.nav__item
+                                a.menu-item.active(href="testimonials.html") Testimonials
+                            li.nav__item
+                                a.menu-item(href="contact.html") Contact
+                    .col-12
+                        hr.nav__line
+        .container
             .row
                 .col-2
                     .gal__desc
@@ -9,7 +30,7 @@ mixin tst
                 .tst__block
                     .row
                         .col-4
-                            img.ml-n2.mt-3.tst__image(src="../images/tst/sonya.png", alt="")
+                            img.ml-n2.mt-3.tst__image(src="../images/tst/sonya.png", alt="sonya")
                         .col-8
                             .tst__content.ml-2
                                 .tst__title
@@ -25,11 +46,11 @@ mixin tst
                                 .tst__text
                                     p.mt-4.tst-text Your photos are STUNNING! Thank you so, so much. They are all just spectacular and a gift we will treasure always. We are really grateful. You are just amazing, Jeff. Just a talented photographer. We can't thank you enough for sharing your craft with us. Thank you!
                         .col-4
-                            img.ml-2.tst__image(src="../images/tst/family.png", alt="")
+                            img.ml-2.tst__image(src="../images/tst/family.png", alt="family")
                 .tst__block
                     .row
                         .col-4
-                            img.mt-n4.ml-n2.tst__image(src="../images/tst/alex.png", alt="")
+                            img.mt-n4.ml-n2.tst__image(src="../images/tst/alex.png", alt="alex")
                         .col-7
                             .tst__content--third.ml-2
                                 .tst__title.ml-1
@@ -39,14 +60,14 @@ mixin tst
                 .tst__block--four
                     .row
                         .col-4
-                            img.tst__image(src="../images/tst/tyler.png", alt="")
+                            img.tst__image(src="../images/tst/tyler.png", alt="tyler")
                             .tst__content--four
                                 .tst__title.mr-5
                                     h2.tst-title--four Chelsea & Tyler
                                 .tst__text.mt-n2
                                     p.tst-text.tst-text--four “Ann is fantastic at what she does! We could not be happier with the way our engagement photos turned out. She is so down to earth and really captures what your looking for. We can't wait for her to shoot our wedding day, and we look forward to her catching family moments over the years to come."
                                 .tst__link.mt-n1
-                                    a.tst-link(href="#about Me") See pics
+                                    a.tst-link(href="gallery.html") See pics
                                         img.tst__arrow(src="../images/main/arrow.svg", alt="arrow")
                         .col-4
                             img.tst__image(src="../images/tst/jessica.png", alt="")
@@ -56,16 +77,16 @@ mixin tst
                                 .tst__text.mt-n1
                                     p.tst-text.tst-text--four.ml-2 "Absolutely one of the best photographers I have ever worked with. Talented, affordable, organized and stress free. I highly recommend to anyone looking for a photographer, that you hire Paige Woodbury Photography. You will not regret it!"
                                 .tst__link.ml-2.mt-n1
-                                    a.tst-link.tst-link--two(href="#about Me") See pics
+                                    a.tst-link.tst-link--two(href="gallery.html") See pics
                                         img.tst__arrow(src="../images/main/arrow.svg", alt="arrow")
                         .col-4
-                            img.tst__image(src="../images/tst/mark.png", alt="")
+                            img.tst__image(src="../images/tst/mark.png", alt="mark")
                             .tst__content--four
                                 .tst__title.mr-5.ml-4
                                     h2.tst-title--four Nicole & Mark
                                 .tst__text.mt-n2
                                     p.tst-text.tst-text--four.ml-4 “Ann is fantastic at what she does! We could not be happier with the way our engagement photos turned out. She is so down to earth and really captures what your looking for. We can't wait for her to shoot our wedding day, and we look forward to her catching family moments over the years to come."
                                 .tst__link.ml-4.mt-n3
-                                    a.tst-link.tst-link--third(href="#about Me") See pics
+                                    a.tst-link.tst-link--third(href="gallery.html") See pics
                                         img.tst__arrow(src="../images/main/arrow.svg", alt="arrow")
         hr.tst__line

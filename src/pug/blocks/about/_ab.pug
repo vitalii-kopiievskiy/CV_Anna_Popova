@@ -1,10 +1,31 @@
 mixin ab
     .ab
         .container
+            nav.main__nav.nav
+                .row.d-flex.align-items-center
+                    .col-3
+                        .nav__logo
+                            a(href="#home")
+                                img(src="../images/nav/logo.svg", alt="letter_logo")
+                    .col-5.offset-4
+                        ul.nav__menu.menu.d-flex.justify-content-between
+                            li.nav__item
+                                a.menu-item(href="index.html") Home
+                            li.nav__item
+                                a.menu-item(href="gallery.html") Gallery
+                            li.nav__item
+                                a.menu-item.active(href="about.html") About me
+                            li.nav__item
+                                a.menu-item(href="testimonials.html") Testimonials
+                            li.nav__item
+                                a.menu-item(href="contact.html") Contact
+                    .col-12
+                        hr.nav__line
+        .container
             .row
                 .col-2
                     .gal__desc
-                        p.gal-desc Home / About
+                        p.gal-desc Home / About me
             
             .ab__main
                 .row

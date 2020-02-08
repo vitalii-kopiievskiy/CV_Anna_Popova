@@ -1,0 +1,204 @@
+.info {
+  font-family: 'Merriweather', serif;
+  margin-top: 82px;
+  background: #fff6f4;
+  border-radius: 4px;
+  padding-top: 26px;
+  padding-left: 60px;
+  padding-right: 20px;
+  margin-right: -100px;
+
+  &__title {
+    font-size: 20px;
+    line-height: 34px;
+    color: #909090;
+    margin-top: 24px;
+    &--two {
+      margin-top: 32px;
+    }
+    &--third {
+      margin-top: 31px;
+    }
+    &--four {
+      margin-top: 44px;
+    }
+  }
+
+  &-link {
+    font-size: 32px;
+    line-height: 76px;
+    color: #212121;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    &:hover {
+      color: #26c6da;
+      transition: all 0.3s linear;
+    }
+    &--third {
+      line-height: 50px;
+    }
+    &--right {
+      margin-left: 39px;
+    }
+  }
+  &__links {
+    margin-top: 8px;
+    margin-bottom: 38px;
+  }
+  &__icon {
+    color: #212121;
+    font-size: 44px;
+    transition: all 0.3s linear;
+    &:hover {
+      color: #26c6da;
+      transition: all 0.3s linear;
+    }
+  }
+  &__line {
+    margin-top: 149px;
+    height: 1px;
+    background-color: #000000;
+    border: 0px solid #000000;
+    margin-bottom: 0px;
+  }
+}
+
+.form {
+  &-title {
+    margin-top: 67px;
+    font-family: 'Lora', serif;
+    font-size: 64px;
+    line-height: 76px;
+  }
+  &-text {
+    margin-top: 25px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 34px;
+    color: #909090;
+  }
+  &__label {
+    margin-top: 41px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 34px;
+    color: #909090;
+    &--phone {
+      margin-top: 30px;
+    }
+    &--txt {
+      margin-top: 31px;
+    }
+  }
+  &-control {
+    background: #f4f4f5;
+    border-radius: 4px;
+    border: none;
+    width: 360px;
+    height: 60px;
+    resize: none;
+    padding-left: 17px;
+    font-size: 16px;
+    line-height: 34px;
+    color: #212121;
+    font-family: 'Merriweather', serif;
+    &:focus {
+      font-family: 'Merriweather', serif;
+      font-size: 16px;
+      line-height: 34px;
+      color: #212121;
+    }
+
+    &--txt {
+      padding-top: 15px;
+    }
+  }
+  &__btn {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    background: #26c6da;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 214px;
+    height: 60px;
+    transition: all 0.4s linear;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+
+    &:hover {
+      background: white;
+      color: #26c6da;
+      border: 1px solid #26c6da;
+      transition: all 0.4s linear;
+    }
+  }
+}
+#message {
+  width: 780px;
+  height: 220px;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #212121;
+}
+
+.form-control::-moz-placeholder {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #212121;
+}
+
+.form-control:-moz-placeholder {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #212121;
+}
+
+.form-control:-ms-input-placeholder {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #212121;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.form-control:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.form-control:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.form-control:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.form-control:-webkit-autofill {
+  box-shadow: inset 0 0 0 50px #f4f4f5;
+  -webkit-text-fill-color: #212121;
+}
+
+option {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Merriweather', serif;
+  color: #212121;
+}

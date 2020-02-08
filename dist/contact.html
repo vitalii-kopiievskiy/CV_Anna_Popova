@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Ann Popova</title>
+  </head>
+  <body> 
+    <div class="con">
+      <div class="container">
+        <nav class="main__nav nav">
+          <div class="row d-flex align-items-center">
+            <div class="col-3">
+              <div class="nav__logo"><a href="#home"><img src="../images/nav/logo.svg" alt="letter_logo"/></a></div>
+            </div>
+            <div class="col-5 offset-4">
+              <ul class="nav__menu menu d-flex justify-content-between">
+                <li class="nav__item"><a class="menu-item" href="index.html">Home</a></li>
+                <li class="nav__item"><a class="menu-item" href="gallery.html">Gallery</a></li>
+                <li class="nav__item"><a class="menu-item" href="about.html">About me</a></li>
+                <li class="nav__item"><a class="menu-item" href="testimonials.html">Testimonials</a></li>
+                <li class="nav__item"><a class="menu-item active" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-12">
+              <hr class="nav__line"/>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="gal__desc"><a class="gal--linkdesc">Home / Contact</a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="con__info info">
+              <div class="info__block">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="info__title">
+                      <p class="info-title">Call us:</p>
+                    </div>
+                    <div class="info__link mt-n1"><a class="info-link" href="tel:+1800 234 89 08">+1800 234 89 08</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="info__block">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="info__title info__title--two">
+                      <p class="info-title">Email us:</p>
+                    </div>
+                    <div class="info__link"><a class="info-link" href="mailto:annpopova@gmail.com">annpopova@gmail.com</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="info__block">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="info__title info__title--third">
+                      <p class="info-title">Address:</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <div class="info__link mt-2"><a class="info-link info-link--third" href="#">7480 Mockingbird Hill undefined Ironville, Oklahoma 41284 United States</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info__block">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="info__title info__title--four">
+                      <p class="info-title">Get social:</p>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="info__links d-flex justify-content-between">
+                      <div class="info-link"><a href="https://www.instagram.com"><i class="info__icon fab fa-instagram"></i></a></div>
+                      <div class="info-link info-link--right"><a href="https://www.facebook.com"><i class="info__icon fab fa-facebook-f"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 offset-1">
+            <div class="form ml-3">
+              <form action="" method="get">
+                <div class="form-group">
+                  <div class="form__title">
+                    <h3 class="form-title">Write to me</h3>
+                  </div>
+                  <div class="form__text">
+                    <p class="form-text">Thank you for your interest in my work! Please contact me with any questions or to schedule a time to discuss your vision.</p>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form__label">
+                        <label for="name">Name</label>
+                      </div>
+                      <input class="form-control" id="name" type="text" placeholder="Type your name" name="name"/>
+                    </div>
+                    <div class="col-6">
+                      <div class="form__label ml-3">
+                        <label for="email">Email</label>
+                      </div>
+                      <input class="ml-3 form-control" id="email" type="email" placeholder="Type your email" name="email"/>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form__label form__label--phone">
+                        <label for="phone">Phone number</label>
+                      </div>
+                      <input class="form-control" id="phone" type="tel" placeholder="Type your phone number" name="phone"/>
+                    </div>
+                    <div class="col-6">
+                      <div class="form__label form__label--phone ml-3">
+                        <label for="inet">How did you find me?</label>
+                      </div>
+                      <select class="form-control ml-3" id="inet" name="find: ">
+                        <option value="value" disabled="disabled" selected="selected">Make your choice</option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>Friends</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <div class="form__label form__label--txt">
+                        <label for="message">Message</label>
+                      </div>
+                      <textarea class="form-control form-control--txt" id="message" rows="3" placeholder="Type your message" name="message"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button class="form__btn" type="submit">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="info__line"/>
+    </div>
+    <div class="container">
+      <footer class="footer">
+        <div class="row d-flex flex-column align-items-center">
+          <div class="col-12">
+            <div class="footer__title">
+              <h2 class="footer-title">Stay connected</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <form class="footer__form action" action="" method="get">
+              <div class="footer-form row d-flex justify-content-center">
+                <input class="footer__input" type="email" name="email" placeholder="E-mail"/>
+                <button class="footer__button" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-2">
+            <div class="footer__links ml-4 mr-4 d-flex justify-content-around">
+              <div class="footer__link"><a href="https://www.facebook.com"><i class="footer__icon fab fa-facebook-f"></i></a></div>
+              <div class="footer__link"><a href="https://www.instagram.com"><i class="footer__icon fab fa-instagram"></i></a></div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="footer__adress">
+              <adress class="footer-adress">2464 Valley View Ln undefined Coppell, Virginia 88719 United States</adress>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="footer__copy">
+              <p class="footer-copy">Copyright 2019. All right reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/b7ba7defb8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
